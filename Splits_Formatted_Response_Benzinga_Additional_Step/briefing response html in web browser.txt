@@ -1,0 +1,11 @@
+Updated: 29-Apr-22 03:00 ET
+May 2022
+Co: CM Â CIBCÂ |Â Ratio: 2-1Â |Â Payable: 13-May-22Â |Â Ex-Date*: 16-May-22Â |Â Announced: 25-Feb-22Â |Â Optionable: Yes
+June 2022
+Co: AMZN Â AmazonÂ |Â Ratio: 20-1Â |Â Payable: 03-Jun-22Â |Â Ex-Date*: 06-Jun-22Â |Â Announced: 09-Mar-22Â |Â Optionable: Yes
+Co: DXCM Â DexcomÂ |Â Ratio: 4-1Â |Â Payable: 09-Jun-22Â |Â Ex-Date*: 10-Jun-22Â |Â Announced: 25-Mar-22Â |Â Optionable: Yes
+Co: SHOP Â ShopifyÂ |Â Ratio: 10-1Â |Â Payable: 28-Jun-22Â |Â Ex-Date*: 29-Jun-22Â |Â Announced: 11-Apr-22Â |Â Optionable: Yes
+July 2022
+Co: GOOG Â AlphabetÂ |Â Ratio: 20-1Â |Â Payable: 15-Jul-22Â |Â Ex-Date*: 18-Jul-22Â |Â Announced: 01-Feb-22Â |Â Optionable: Yes
+Co: GOOGL Â Alphabet AÂ |Â Ratio: 20-1Â |Â Payable: 15-Jul-22Â |Â Ex-Date*: 18-Jul-22Â |Â Announced: 01-Feb-22Â |Â Optionable: Yes
+* Ex-Date is the date that the stock price is scheduled to adjust on the respective exchange.

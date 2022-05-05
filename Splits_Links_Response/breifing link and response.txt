@@ -1,0 +1,49 @@
+https://www.briefing.com/Inv/content/Calendar/SplitsCalendar.htm
+
+Response;
+<div id="Content"><span class="lastUpdated colTime" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">Updated: 29-Apr-22 03:00 ET</span><div xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+</div>
+<table xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <tr>
+    <td class="dateGroup calHeader">
+      <div>May 2022</div>
+    </td>
+  </tr>
+</table>
+<div class="CalDataTable" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=CM">CM</a></span></span><span><span class="calDATA">
+                    CIBC</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">2-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">13-May-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">16-May-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">25-Feb-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+</div>
+<table xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <tr>
+    <td class="dateGroup calHeader">
+      <div>June 2022</div>
+    </td>
+  </tr>
+</table>
+<div class="CalDataTable" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=AMZN">AMZN</a></span></span><span><span class="calDATA">
+                    Amazon</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">20-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">03-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">06-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">09-Mar-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=DXCM">DXCM</a></span></span><span><span class="calDATA">
+                    Dexcom</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">4-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">09-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">10-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">25-Mar-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=SHOP">SHOP</a></span></span><span><span class="calDATA">
+                    Shopify</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">10-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">28-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">29-Jun-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">11-Apr-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+</div>
+<table xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <tr>
+    <td class="dateGroup calHeader">
+      <div>July 2022</div>
+    </td>
+  </tr>
+</table>
+<div class="CalDataTable" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=GOOG">GOOG</a></span></span><span><span class="calDATA">
+                    Alphabet</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">20-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">15-Jul-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">18-Jul-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">01-Feb-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+  <div class="calRow"><span class="calSpanBlock"><span class="calLABEL">Co: </span><span class="ticker"><span class="calDATA"><a style="text-decoration: underline;" target="_new" href="../search?Ticker=GOOGL">GOOGL</a></span></span><span><span class="calDATA">
+                    Alphabet A</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ratio: </span><span><span class="calDATA">20-1</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Payable: </span><span><span class="calDATA">15-Jul-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Ex-Date*: </span><span><span class="calDATA">18-Jul-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Announced: </span><span><span class="calDATA">01-Feb-22</span></span><font color="black"> | </font></span><span class="calSpanBlock"><span class="calLABEL">Optionable: </span><span><span class="calDATA">Yes</span></span></span></div>
+</div>
+<div class="exDate" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+          * Ex-Date is the date that the stock price is scheduled to adjust on the respective exchange.
+        </div><br xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:www.briefing.com">
+<!-- StockSplitsInv 50330 -->
+</div><!-- 04/29/22 03:00:27 P50330 S65 -->

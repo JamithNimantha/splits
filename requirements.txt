@@ -1,0 +1,7 @@
+unidecode
+psycopg2-binary
+bs4~=0.0.1
+requests~=2.27.1
+psycopg2~=2.9.3
+python-dateutil~=2.8.2
+beautifulsoup4~=4.11.1
