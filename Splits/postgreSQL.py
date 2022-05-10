@@ -80,6 +80,10 @@ class PostgreSql:
         update_query = f"UPDATE {table} SET {set} WHERE {condition};"
         return self._execute(update_query)
 
+    def delete(self, table: str, condition: str) -> bool:
+        delete_query = f"DELETE FROM {table} WHERE {condition};"
+        return self._execute(delete_query)
+
     def close(self):
         self.conn.close()
 

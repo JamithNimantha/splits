@@ -1,10 +1,14 @@
+import os
+from datetime import datetime
+
+from dateutil import relativedelta
 from postgreSQL import PostgreSql
 
 
 class SqlClient(PostgreSql):
     def __init__(self) -> None:
         super().__init__()
-        self.credential_filename = r"Data\Creadentals.json"
+        self.credential_filename = f"Data{os.sep}Creadentals.json"
         self.table = 'public.splits'
 
     def already_exists(self, insert_data: dict) -> bool:
@@ -26,3 +30,10 @@ class SqlClient(PostgreSql):
         if self.already_exists(insert_data.copy()):
             return self.update_data(insert_data)
         return self.insert(self.table, insert_data)
+
+    def delete_old_data(self) -> bool:
+        today = datetime.today().date()
+        today = today.replace(day=1)
+        date_from = (today - relativedelta.relativedelta(months=6)).strftime("%Y-%m-%d")
+        condition = f"announcement_date < '{date_from}'"
+        return self.delete(self.table, condition)

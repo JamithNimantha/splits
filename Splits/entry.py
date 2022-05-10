@@ -1,15 +1,34 @@
+import datetime
+from typing import Optional
+
 from dateutil import parser
 
 
 class Entry:
     def __init__(self, **kwargs) -> None:
+        self.split_label = None
+        self.update_time = None
+        self.update_date = None
+        self.note = None
+        self.exchange = None
+        self.optionable = None
+        self.co_name = None
+        self.split_from = None
+        self.split_to = None
+        self.updated_timestamp = None
+        self.payable_date = None
+        self.ex_date = None
+        self.record_date = None
+        self.announcement_date = None
+        self.country = None
+        self.symbol = None
         self.get(**kwargs)
 
     @property
     def json(self) -> dict:
         return self.__dict__
 
-    def get(self, **kwargs) -> object:
+    def get(self, **kwargs) -> None:
         """
         Generator function.
         """
@@ -22,16 +41,31 @@ class Entry:
         self.announcement_date = self.get_date(kwargs['ann_date'])
         self.record_date = self.get_date(kwargs['rec_date'])
         self.ex_date = self.get_date(kwargs['ex_date'])
-
+        self.payable_date = self.get_date(kwargs['payable_date'])
+        self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))
         self.co_name = kwargs['co_name'].strip()
+        self.exchange = kwargs['exchange']
+        self.note = kwargs['note']
+        self.optionable = kwargs['optionable']
+        self.update_date = self.get_date(str(datetime.datetime.today().date()))
+        self.update_time = self.get_time(str(datetime.datetime.today().time()))
         if self.split_from > self.split_to:
             self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
         else:
             self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
 
-    def get_date(self, date_: str) -> None:
+    @staticmethod
+    def get_date(date_: str) -> Optional[str]:
+        if date_ in ['', None]:
+            return None
         return f"to_timestamp('{parser.parse(date_)}','yyyy-mm-dd')"
+
+    @staticmethod
+    def get_time(date_: str) -> Optional[str]:
+        if date_ in ['', None]:
+            return None
+        return f"to_timestamp('{date_}','HH24:M1:SS')::TIME"
 
     @property
     def sql_insert_data(self) -> dict:

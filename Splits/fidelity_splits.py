@@ -1,5 +1,5 @@
 __version__ = 1.0
-__auther__ = "Shishere"
+__author__ = "Jamith Nimantha"
 
 from datetime import datetime
 
@@ -8,14 +8,14 @@ from dateutil import relativedelta
 import logger
 import tools
 from entry import Entry
-from sql_client import SqlClient
 
 log = logger.logger
 
 
-class Splits:
-    def __init__(self) -> None:
+class FidelitySplits:
+    def __init__(self, sql) -> None:
         self.base_link = "https://eresearch.fidelity.com/eresearch/conferenceCalls.jhtml?tab=splits&begindate={}"
+        self.sql = sql
 
     def __call__(self, ) -> None:
         today = datetime.today().date()
@@ -54,30 +54,19 @@ class Splits:
                     symbol=symbol,
                     co_name=co_name,
                     ratio=ratio,
+                    payable_date=None,
+                    updated_timestamp=None,
+                    exchange=None,
                     ann_date=ann_date,
                     rec_date=rec_date,
                     ex_date=ex_date,
+                    optionable=None,
+                    note=None,
                 )
-                if sql.insert_data(entry.sql_insert_data):
+                if self.sql.insert_data(entry.sql_insert_data):
                     success += 1
             except Exception as e:
                 log.error(e)
         else:
             log.info(f"{success} items saved to db")
 
-
-if __name__ == "__main__":
-    try:
-        log.info("Script started")
-        sql = SqlClient()
-        if sql.initialize():
-            scraper = Splits()
-            scraper()
-        else:
-            log.critical("failed to establish connection with database.")
-    except Exception as e:
-        log.error(e)
-    finally:
-        if sql.connected:
-            sql.close()
-        log.info("Script ended")

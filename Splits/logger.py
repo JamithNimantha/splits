@@ -1,13 +1,14 @@
 import datetime
 import logging
 import os
+import sys
 
 
 def get_logger() -> logging.Logger:
     logging.basicConfig(
         filename=get_log_filename(),
         filemode='a',
-        format='%(asctime)s - %(levelname)s - %(message)s',
+        format='%(asctime)s - p%(process)s {%(filename)s:%(lineno)d} - %(levelname)s - %(message)s',
         datefmt='%m-%d-%Y %I:%M:%S %p',
         level=logging.INFO,
     )
@@ -26,7 +27,10 @@ def get_log_filename() -> str:
         time_now = time_now.replace(char, '_')
     return "Log/LOG_" + time_now + ".log"
 
+
 logger = get_logger()
+logger.addHandler(logging.StreamHandler())
+
 
 if __name__ == "__main__":
     pass

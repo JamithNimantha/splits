@@ -1,0 +1,81 @@
+05-09-2022 10:53:23 AM - INFO - Script started
+05-09-2022 10:53:23 AM - INFO - Month -> 04/01/2022
+05-09-2022 10:53:25 AM - INFO - Script ended
+05-09-2022 10:53:28 AM - INFO - Script started
+05-09-2022 10:53:28 AM - INFO - Month -> 04/01/2022
+05-09-2022 10:53:31 AM - INFO - Script ended
+05-09-2022 10:59:04 AM - INFO - Script started
+05-09-2022 11:02:04 AM - INFO - Script ended
+05-09-2022 11:02:06 AM - INFO - Script started
+05-09-2022 11:05:14 AM - INFO - Script ended
+05-09-2022 11:05:16 AM - INFO - Script started
+05-09-2022 11:14:15 AM - INFO - Script ended
+05-09-2022 11:16:31 AM - p77787 {/Users/jamithnimantha/DebuggerMe/Fiverr/splits/Splits/main.py:14} - INFO - Script started
+05-09-2022 11:16:31 AM - p77787 {/Users/jamithnimantha/DebuggerMe/Fiverr/splits/Splits/benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2021-11-09
+05-09-2022 11:17:04 AM - p77787 {/Users/jamithnimantha/DebuggerMe/Fiverr/splits/Splits/main.py:25} - INFO - Script ended
+05-09-2022 11:18:32 AM - p77826 {main.py:14} - INFO - Script started
+05-09-2022 11:18:32 AM - p77826 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:18:34 AM - p77826 {main.py:25} - INFO - Script ended
+05-09-2022 11:25:41 AM - p78044 {main.py:14} - INFO - Script started
+05-09-2022 11:25:41 AM - p78044 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:28:19 AM - p78044 {main.py:25} - INFO - Script ended
+05-09-2022 11:28:22 AM - p78096 {main.py:14} - INFO - Script started
+05-09-2022 11:28:22 AM - p78096 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:28:23 AM - p78096 {main.py:21} - ERROR - Expecting value: line 1 column 1 (char 0)
+05-09-2022 11:28:23 AM - p78096 {main.py:25} - INFO - Script ended
+05-09-2022 11:28:29 AM - p78104 {main.py:14} - INFO - Script started
+05-09-2022 11:28:29 AM - p78104 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:28:29 AM - p78104 {main.py:21} - ERROR - Expecting value: line 1 column 1 (char 0)
+05-09-2022 11:28:29 AM - p78104 {main.py:25} - INFO - Script ended
+05-09-2022 11:28:47 AM - p78112 {main.py:14} - INFO - Script started
+05-09-2022 11:28:48 AM - p78112 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:31:38 AM - p78112 {main.py:17} - INFO - Script ended
+05-09-2022 11:31:41 AM - p78194 {main.py:14} - INFO - Script started
+05-09-2022 11:31:41 AM - p78194 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:31:41 AM - p78194 {main.py:21} - ERROR - module 'requests' has no attribute 'h'
+05-09-2022 11:31:41 AM - p78194 {main.py:25} - INFO - Script ended
+05-09-2022 11:31:48 AM - p78203 {main.py:14} - INFO - Script started
+05-09-2022 11:31:48 AM - p78203 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:33:46 AM - p78203 {main.py:17} - INFO - Script ended
+05-09-2022 11:33:48 AM - p78230 {main.py:14} - INFO - Script started
+05-09-2022 11:33:48 AM - p78230 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:33:49 AM - p78230 {main.py:21} - ERROR - 'list' object has no attribute 'items'
+05-09-2022 11:33:49 AM - p78230 {main.py:25} - INFO - Script ended
+05-09-2022 11:33:57 AM - p78237 {main.py:14} - INFO - Script started
+05-09-2022 11:33:58 AM - p78237 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:35:16 AM - p78237 {main.py:25} - INFO - Script ended
+05-09-2022 11:35:19 AM - p78273 {main.py:14} - INFO - Script started
+05-09-2022 11:35:19 AM - p78273 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:40:52 AM - p78273 {main.py:25} - INFO - Script ended
+05-09-2022 11:42:09 AM - p78426 {main.py:14} - INFO - Script started
+05-09-2022 11:42:09 AM - p78426 {benzinga_splits.py:31} - INFO - Date From -> 2021-11-09 : Date To -> 2022-11-09
+05-09-2022 11:43:43 AM - p78426 {main.py:17} - INFO - Script ended
+05-09-2022 11:43:45 AM - p78470 {main.py:14} - INFO - Script started
+05-09-2022 11:43:45 AM - p78470 {benzinga_splits.py:32} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-01
+05-09-2022 11:43:54 AM - p78470 {main.py:17} - INFO - Script ended
+05-09-2022 11:43:56 AM - p78488 {main.py:14} - INFO - Script started
+05-09-2022 11:44:28 AM - p78488 {main.py:17} - INFO - Script ended
+05-09-2022 11:44:30 AM - p78506 {main.py:14} - INFO - Script started
+05-09-2022 11:44:30 AM - p78506 {benzinga_splits.py:33} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-09-2022 11:44:30 AM - p78506 {main.py:21} - ERROR - name 'soup' is not defined
+05-09-2022 11:44:30 AM - p78506 {main.py:25} - INFO - Script ended
+05-09-2022 11:44:32 AM - p78518 {main.py:14} - INFO - Script started
+05-09-2022 11:44:46 AM - p78518 {main.py:25} - INFO - Script ended
+05-09-2022 11:44:50 AM - p78526 {main.py:14} - INFO - Script started
+05-09-2022 11:44:50 AM - p78526 {main.py:21} - ERROR - day is out of range for month
+05-09-2022 11:44:50 AM - p78526 {main.py:25} - INFO - Script ended
+05-09-2022 11:49:31 AM - p78639 {main.py:14} - INFO - Script started
+05-09-2022 11:51:48 AM - p78639 {main.py:25} - INFO - Script ended
+05-09-2022 11:51:54 AM - p78674 {main.py:14} - INFO - Script started
+05-09-2022 11:52:18 AM - p78674 {main.py:25} - INFO - Script ended
+05-09-2022 11:52:44 AM - p78693 {main.py:14} - INFO - Script started
+05-09-2022 11:53:53 AM - p78693 {main.py:17} - INFO - Script ended
+05-09-2022 11:53:54 AM - p78708 {main.py:14} - INFO - Script started
+05-09-2022 11:54:42 AM - p78708 {main.py:17} - INFO - Script ended
+05-09-2022 11:54:44 AM - p78724 {main.py:14} - INFO - Script started
+05-09-2022 11:56:57 AM - p78724 {main.py:25} - INFO - Script ended
+05-09-2022 11:57:00 AM - p78762 {main.py:14} - INFO - Script started
+05-09-2022 11:58:14 AM - p78762 {main.py:17} - INFO - Script ended
+05-09-2022 10:21:45 PM - p81910 {main.py:14} - INFO - Script started
+05-09-2022 10:21:45 PM - p81910 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-10-2022 12:25:54 AM - p81910 {main.py:16} - INFO - Script ended
