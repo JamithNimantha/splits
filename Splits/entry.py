@@ -44,16 +44,23 @@ class Entry:
         self.payable_date = self.get_date(kwargs['payable_date'])
         self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))
-        self.co_name = kwargs['co_name'].strip()
+        if kwargs['co_name'] is not None:
+            self.co_name = kwargs['co_name'].strip()
         self.exchange = kwargs['exchange']
         self.note = kwargs['note']
         self.optionable = kwargs['optionable']
         self.update_date = self.get_date(str(datetime.datetime.today().date()))
         self.update_time = self.get_time(str(datetime.datetime.today().time()))
         if self.split_from > self.split_to:
-            self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+            if self.record_date is None:
+                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|PAY:{kwargs['payable_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+            else:
+                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
         else:
-            self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+            if self.record_date is None:
+                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|PAY:{kwargs['payable_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+            else:
+                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
 
     @staticmethod
     def get_date(date_: str) -> Optional[str]:

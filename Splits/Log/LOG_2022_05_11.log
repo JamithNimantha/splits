@@ -1,0 +1,48 @@
+05-11-2022 12:13:28 AM - p97456 {main.py:15} - INFO - Script started
+05-11-2022 12:13:28 AM - p97456 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:13:28 AM - p97456 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:13:28 AM - p97456 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:13:28 AM - p97456 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:13:28 AM - p97456 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:13:28 AM - p97456 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:13:28 AM - p97456 {main.py:32} - INFO - Script ended
+05-11-2022 12:15:19 AM - p97491 {main.py:15} - INFO - Script started
+05-11-2022 12:15:19 AM - p97491 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:15:19 AM - p97491 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:15:19 AM - p97491 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:15:19 AM - p97491 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:15:19 AM - p97491 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:15:19 AM - p97491 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:15:19 AM - p97491 {main.py:32} - INFO - Script ended
+05-11-2022 12:15:38 AM - p97497 {main.py:15} - INFO - Script started
+05-11-2022 12:15:38 AM - p97497 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:15:38 AM - p97497 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:15:38 AM - p97497 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:15:38 AM - p97497 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:15:38 AM - p97497 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:15:38 AM - p97497 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:15:38 AM - p97497 {main.py:32} - INFO - Script ended
+05-11-2022 12:16:16 AM - p97504 {main.py:15} - INFO - Script started
+05-11-2022 12:16:16 AM - p97504 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:16:16 AM - p97504 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:16:16 AM - p97504 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:16:16 AM - p97504 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:16:16 AM - p97504 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:16:16 AM - p97504 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:16:16 AM - p97504 {main.py:32} - INFO - Script ended
+05-11-2022 12:16:42 AM - p97510 {main.py:15} - INFO - Script started
+05-11-2022 12:16:42 AM - p97510 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:16:42 AM - p97510 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:16:42 AM - p97510 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:16:43 AM - p97510 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:16:43 AM - p97510 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:16:43 AM - p97510 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:16:43 AM - p97510 {main.py:32} - INFO - Script ended
+05-11-2022 12:16:52 AM - p97515 {main.py:15} - INFO - Script started
+05-11-2022 12:16:52 AM - p97515 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:16:52 AM - p97515 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:60} - INFO - 14 items saved to db
+05-11-2022 12:16:52 AM - p97515 {main.py:32} - INFO - Script ended

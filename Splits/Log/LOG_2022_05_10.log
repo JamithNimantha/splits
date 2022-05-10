@@ -6103,3 +6103,178 @@ HINT:  Use the 24-hour clock, or give an hour between 1 and 12.
 05-10-2022 11:16:09 AM - p91521 {fidelity_splits.py:70} - INFO - 0 items saved to db
 05-10-2022 11:16:09 AM - p91521 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
 05-10-2022 11:16:10 AM - p91521 {main.py:29} - INFO - Script ended
+05-10-2022 11:25:14 AM - p91764 {main.py:15} - INFO - Script started
+05-10-2022 11:25:14 AM - p91764 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:25:14 AM - p91764 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:25:14 AM - p91764 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:27:04 AM - p91764 {main.py:32} - INFO - Script ended
+05-10-2022 11:27:30 AM - p91834 {main.py:15} - INFO - Script started
+05-10-2022 11:27:30 AM - p91834 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:27:30 AM - p91834 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:27:30 AM - p91834 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:30:49 AM - p91873 {main.py:15} - INFO - Script started
+05-10-2022 11:30:49 AM - p91873 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:30:49 AM - p91873 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:30:49 AM - p91873 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:37:23 AM - p91993 {main.py:15} - INFO - Script started
+05-10-2022 11:37:23 AM - p91993 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:37:23 AM - p91993 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:37:23 AM - p91993 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:39:03 AM - p92032 {main.py:15} - INFO - Script started
+05-10-2022 11:39:03 AM - p92032 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:39:03 AM - p92032 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:39:03 AM - p92032 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:39:19 AM - p92032 {main.py:28} - ERROR - Invalid header name b'user-agent:'
+05-10-2022 11:39:19 AM - p92032 {main.py:32} - INFO - Script ended
+05-10-2022 11:40:06 AM - p92070 {main.py:15} - INFO - Script started
+05-10-2022 11:40:06 AM - p92070 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:40:06 AM - p92070 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:40:06 AM - p92070 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:44:47 AM - p92189 {main.py:15} - INFO - Script started
+05-10-2022 11:44:47 AM - p92189 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:44:47 AM - p92189 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:44:47 AM - p92189 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:47:36 AM - p92189 {main.py:32} - INFO - Script ended
+05-10-2022 11:47:42 AM - p92272 {main.py:15} - INFO - Script started
+05-10-2022 11:47:42 AM - p92272 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:47:42 AM - p92272 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:47:42 AM - p92272 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:03:48 PM - p92272 {main.py:32} - INFO - Script ended
+05-10-2022 11:03:52 PM - p95790 {main.py:15} - INFO - Script started
+05-10-2022 11:03:52 PM - p95790 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:03:52 PM - p95790 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:03:52 PM - p95790 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:03:53 PM - p95790 {nasdaq_splits.py:60} - INFO - 0 items saved to db
+05-10-2022 11:03:53 PM - p95790 {main.py:32} - INFO - Script ended
+05-10-2022 11:05:19 PM - p95833 {main.py:15} - INFO - Script started
+05-10-2022 11:05:19 PM - p95833 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:05:19 PM - p95833 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:05:19 PM - p95833 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:05:59 PM - p95833 {main.py:32} - INFO - Script ended
+05-10-2022 11:09:50 PM - p95906 {main.py:15} - INFO - Script started
+05-10-2022 11:09:50 PM - p95906 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:09:50 PM - p95906 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:09:50 PM - p95906 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:09:51 PM - p95906 {nasdaq_splits.py:60} - INFO - 0 items saved to db
+05-10-2022 11:09:51 PM - p95906 {main.py:32} - INFO - Script ended
+05-10-2022 11:28:14 PM - p96478 {main.py:15} - INFO - Script started
+05-10-2022 11:28:14 PM - p96478 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:28:14 PM - p96478 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:28:14 PM - p96478 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:28:15 PM - p96478 {nasdaq_splits.py:60} - INFO - 0 items saved to db
+05-10-2022 11:28:15 PM - p96478 {main.py:32} - INFO - Script ended
+05-10-2022 11:28:29 PM - p96487 {main.py:15} - INFO - Script started
+05-10-2022 11:28:29 PM - p96487 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:28:29 PM - p96487 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:28:29 PM - p96487 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:37:21 PM - p96745 {main.py:15} - INFO - Script started
+05-10-2022 11:37:21 PM - p96745 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:37:21 PM - p96745 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:37:21 PM - p96745 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:42:35 PM - p96745 {main.py:22} - INFO - Script ended
+05-10-2022 11:42:36 PM - p96856 {main.py:15} - INFO - Script started
+05-10-2022 11:42:36 PM - p96856 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:42:36 PM - p96856 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:42:36 PM - p96856 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:42:40 PM - p96856 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:42:45 PM - p96856 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:42:45 PM - p96856 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-10-2022 11:44:16 PM - p96856 {main.py:22} - INFO - Script ended
+05-10-2022 11:44:51 PM - p96907 {main.py:15} - INFO - Script started
+05-10-2022 11:44:51 PM - p96907 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:44:51 PM - p96907 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:44:51 PM - p96907 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:44:57 PM - p96907 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:44:57 PM - p96907 {main.py:28} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:44:57 PM - p96907 {main.py:32} - INFO - Script ended
+05-10-2022 11:45:03 PM - p96916 {main.py:15} - INFO - Script started
+05-10-2022 11:45:03 PM - p96916 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:45:03 PM - p96916 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:45:03 PM - p96916 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:45:03 PM - p96916 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:45:03 PM - p96916 {main.py:28} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:45:03 PM - p96916 {main.py:32} - INFO - Script ended
+05-10-2022 11:45:23 PM - p96923 {main.py:15} - INFO - Script started
+05-10-2022 11:45:23 PM - p96923 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:45:23 PM - p96923 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:45:23 PM - p96923 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:47:03 PM - p96923 {main.py:32} - INFO - Script ended
+05-10-2022 11:47:05 PM - p96948 {main.py:15} - INFO - Script started
+05-10-2022 11:47:05 PM - p96948 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:47:05 PM - p96948 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:47:05 PM - p96948 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:47:05 PM - p96948 {nasdaq_splits.py:58} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:47:05 PM - p96948 {main.py:28} - ERROR - 'NoneType' object has no attribute 'replace'
+05-10-2022 11:47:05 PM - p96948 {main.py:32} - INFO - Script ended
+05-10-2022 11:47:08 PM - p96953 {main.py:15} - INFO - Script started
+05-10-2022 11:47:08 PM - p96953 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:47:08 PM - p96953 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:47:08 PM - p96953 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:47:51 PM - p96953 {main.py:22} - INFO - Script ended
+05-10-2022 11:47:53 PM - p96972 {main.py:15} - INFO - Script started
+05-10-2022 11:47:53 PM - p96972 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:47:53 PM - p96972 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:47:53 PM - p96972 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:48:42 PM - p96972 {main.py:22} - INFO - Script ended
+05-10-2022 11:48:48 PM - p96987 {main.py:15} - INFO - Script started
+05-10-2022 11:48:48 PM - p96987 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:48:48 PM - p96987 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:48:48 PM - p96987 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:50:26 PM - p96987 {main.py:22} - INFO - Script ended
+05-10-2022 11:51:09 PM - p97026 {main.py:15} - INFO - Script started
+05-10-2022 11:51:09 PM - p97026 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:51:09 PM - p97026 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:51:09 PM - p97026 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-10-2022 11:57:11 PM - p97026 {main.py:22} - INFO - Script ended
+05-10-2022 11:57:13 PM - p97132 {main.py:15} - INFO - Script started
+05-10-2022 11:57:13 PM - p97132 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-10-2022 11:57:13 PM - p97132 {main.py:19} - INFO - Deleting all rows Completed!
+05-10-2022 11:57:13 PM - p97132 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-10
+05-11-2022 12:13:21 AM - p97132 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '5.000%'
+05-11-2022 12:13:26 AM - p97132 {main.py:32} - INFO - Script ended
