@@ -42,11 +42,6 @@ class Entry:
             self.symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
         self.symbol = symbol
         self.exchange = kwargs['exchange']
-        record = self.sql.find_by_symbol_in_base_min_vol_prc(self.symbol)
-        if record is not None:
-            if self.exchange is None:
-                self.exchange = record['symbol']
-
         self.announcement_date = self.get_date(kwargs['ann_date'])
         self.record_date = self.get_date(kwargs['rec_date'])
         self.ex_date = self.get_date(kwargs['ex_date'])
