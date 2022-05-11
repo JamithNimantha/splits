@@ -5,7 +5,8 @@ from dateutil import parser
 
 
 class Entry:
-    def __init__(self, **kwargs) -> None:
+    def __init__(self, sql, **kwargs) -> None:
+        self.sql = sql
         self.split_label = None
         self.update_time = None
         self.update_date = None
@@ -33,11 +34,19 @@ class Entry:
         Generator function.
         """
         symbol = kwargs['symbol']
-        if symbol.__contains__(':CA'):
-            self.country = 'Canada'
-        else:
-            self.country = 'USA'
-        self.symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
+        if symbol.__contains__(':'):
+            if symbol.__contains__(':CA'):
+                self.country = 'Canada'
+            else:
+                self.country = 'USA'
+            self.symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
+        self.symbol = symbol
+        self.exchange = kwargs['exchange']
+        record = self.sql.find_by_symbol_in_base_min_vol_prc(self.symbol)
+        if record is not None:
+            if self.exchange is None:
+                self.exchange = record['symbol']
+
         self.announcement_date = self.get_date(kwargs['ann_date'])
         self.record_date = self.get_date(kwargs['rec_date'])
         self.ex_date = self.get_date(kwargs['ex_date'])
@@ -48,7 +57,6 @@ class Entry:
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))
         if kwargs['co_name'] is not None:
             self.co_name = kwargs['co_name'].strip()
-        self.exchange = kwargs['exchange']
         self.note = kwargs['note']
         self.optionable = kwargs['optionable']
         self.update_date = self.get_date(str(datetime.datetime.today().date()))

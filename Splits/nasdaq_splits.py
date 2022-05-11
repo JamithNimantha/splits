@@ -40,6 +40,7 @@ class NasdaqSplits:
                         "%m/%d/%Y")
                     note = 'announcement_date invalid'
                 entry = Entry(
+                    sql=self.sql,
                     symbol=split_record['symbol'],
                     co_name=split_record['name'],
                     ratio=split_record['ratio'],

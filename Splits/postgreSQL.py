@@ -1,6 +1,7 @@
 from typing import Tuple
 
 import psycopg2
+from psycopg2.extras import RealDictCursor
 
 import logger
 from tools import read_json
@@ -42,7 +43,6 @@ class PostgreSql:
             return self.connected
 
     def _execute(self, query: str) -> bool:
-        curr = self.conn.cursor()
         try:
             curr.execute(query)
         except Exception as e:
@@ -59,7 +59,7 @@ class PostgreSql:
             query = f"SELECT * FROM {table};"
         if columns:
             query = query.replace("*", columns)
-        curr = self.conn.cursor()
+        curr = self.conn.cursor(cursor_factory=RealDictCursor)
         try:
             curr.execute(query)
         except Exception as e:
