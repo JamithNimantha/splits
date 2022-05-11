@@ -42,6 +42,7 @@ class BenzingaSplits:
         for split_record in json_data['splits']:
             try:
                 entry = Entry(
+                    sql=self.sql,
                     symbol=split_record['ticker'],
                     co_name=split_record['name'],
                     ratio=split_record['ratio'],

@@ -43,6 +43,7 @@ class PostgreSql:
             return self.connected
 
     def _execute(self, query: str) -> bool:
+        curr = self.conn.cursor()
         try:
             curr.execute(query)
         except Exception as e:

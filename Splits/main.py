@@ -3,6 +3,7 @@ from sql_client import SqlClient
 from fidelity_splits import FidelitySplits as Fidelity
 from benzinga_splits import BenzingaSplits as Benzinga
 from nasdaq_splits import NasdaqSplits as Nasdaq
+from briefing_splits import BriefingSplits as Briefing
 
 log = logger.logger
 
@@ -17,11 +18,10 @@ if __name__ == "__main__":
             log.info("Deleting all rows where announcement date < Today – 6 Months")
             if sql.delete_old_data():
                 log.info("Deleting all rows Completed!")
-            # Fidelity(sql)()
-            # Benzinga(sql)()
+            Fidelity(sql)()
+            Benzinga(sql)()
             Nasdaq(sql)()
-
-
+            Briefing(sql)()
         else:
             log.critical("failed to establish connection with database.")
     except Exception as e:

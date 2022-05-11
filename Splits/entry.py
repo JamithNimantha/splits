@@ -49,6 +49,8 @@ class Entry:
         self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         if kwargs['ratio'].endswith('%'):
             kwargs['ratio'] = f"{(int(kwargs['ratio'].replace('.000%', '')) * 0.01) + 1}:{1}"
+        if kwargs['ratio'] == '':
+            raise Exception('Ratio is empty for {}'.format(self.symbol))
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))
         if kwargs['co_name'] is not None:
             self.co_name = kwargs['co_name'].strip()
@@ -58,20 +60,25 @@ class Entry:
         self.update_time = self.get_time(str(datetime.datetime.today().time()))
         if self.split_from > self.split_to:
             if self.record_date is None:
-                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|PAY:{kwargs['payable_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|PAY:{self.get_date_for_label(kwargs['payable_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
             else:
-                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|REC:{self.get_date_for_label(kwargs['rec_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
         else:
             if self.record_date is None:
-                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|PAY:{kwargs['payable_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|PAY:{self.get_date_for_label(kwargs['payable_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
             else:
-                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{kwargs['ann_date'].replace('/', '-')}|REC:{kwargs['rec_date'].replace('/', '-')}|EX:{kwargs['ex_date'].replace('/', '-')}"
+                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|REC:{self.get_date_for_label(kwargs['rec_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
 
     @staticmethod
     def get_date(date_: str) -> Optional[str]:
         if date_ in ['', None]:
             return None
         return f"to_timestamp('{parser.parse(date_)}','yyyy-mm-dd')"
+
+    @staticmethod
+    def get_date_for_label(date_: str) -> Optional[str]:
+        # 29 - Jun - 22
+        return parser.parse(date_).strftime("%d-%b-%y")
 
     @staticmethod
     def get_time(date_: str) -> Optional[str]:
@@ -86,6 +93,8 @@ class Entry:
             if val not in ['', None]:
                 if key.__contains__('date') or key.__contains__('time'):
                     insert_data[key] = val
+                elif key.__contains__('sql'):
+                    pass
                 elif type(val) == str:
                     insert_data[key] = f"""'{val.replace("'", "''")}'"""
                 else:

@@ -51,6 +51,7 @@ class FidelitySplits:
                 rec_date = tds[3].text.strip()
                 ex_date = tds[4].text.strip()
                 entry = Entry(
+                    sql=self.sql,
                     symbol=symbol,
                     co_name=co_name,
                     ratio=ratio,
@@ -66,7 +67,7 @@ class FidelitySplits:
                 if self.sql.insert_data(entry.sql_insert_data):
                     success += 1
             except Exception as e:
-                log.error(e)
+                 log.error(e)
         else:
             log.info(f"{success} items saved to db")
 
