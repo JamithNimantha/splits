@@ -43,6 +43,8 @@ class Entry:
         self.ex_date = self.get_date(kwargs['ex_date'])
         self.payable_date = self.get_date(kwargs['payable_date'])
         self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
+        if kwargs['ratio'].endswith('%'):
+            kwargs['ratio'] = f"{(int(kwargs['ratio'].replace('.000%', '')) * 0.01) + 1}:{1}"
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))
         if kwargs['co_name'] is not None:
             self.co_name = kwargs['co_name'].strip()
