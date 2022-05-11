@@ -1,6 +1,6 @@
 
-__author__ = "Jamith Nimantha"
-__version__ = 1.0
+__version__ = 1.1
+__author__ = 'Jamith Nimantha'
 
 import calendar
 from datetime import datetime

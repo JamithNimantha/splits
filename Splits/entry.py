@@ -3,6 +3,9 @@ from typing import Optional
 
 from dateutil import parser
 
+__version__ = 1.1
+__author__ = 'Jamith Nimantha'
+
 
 class Entry:
     def __init__(self, sql, **kwargs) -> None:

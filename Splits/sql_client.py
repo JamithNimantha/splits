@@ -26,6 +26,13 @@ class SqlClient(PostgreSql):
         if result:
             return True
 
+    def delete_oldest_annoucement_date_if_duplicate_symbols_found(self, insert_data: dict) -> None:
+        condition = f"symbol={insert_data['symbol']}"
+        result = self.select(self.table, condition=condition, order=True)
+        if result is not None and len(result) > 1:
+            condition = f"symbol={insert_data['symbol']} and announcement_date > '{result[0]['announcement_date']}'"
+            self.delete(self.table, condition)
+
     def find_by_symbol_in_base_min_vol_prc(self, symbol: str) -> Optional[RealDictRow]:
         condition = f"symbol='{symbol}'"
         records = self.select('base_min_vol_prc', condition=condition)
@@ -46,8 +53,12 @@ class SqlClient(PostgreSql):
         if not self.exists_in_base_min_vol_prc(insert_data.copy()):
             return False
         if self.already_exists(insert_data.copy()):
-            return self.update_data(insert_data)
-        return self.insert(self.table, insert_data)
+            rst = self.update_data(insert_data.copy())
+            self.delete_oldest_annoucement_date_if_duplicate_symbols_found(insert_data)
+            return rst
+        rst = self.insert(self.table, insert_data.copy())
+        self.delete_oldest_annoucement_date_if_duplicate_symbols_found(insert_data)
+        return rst
 
     def delete_old_data(self) -> bool:
         today = datetime.today().date()

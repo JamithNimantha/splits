@@ -46,3 +46,1459 @@
 05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:58} - ERROR - could not convert string to float: '4.000%'
 05-11-2022 12:16:52 AM - p97515 {nasdaq_splits.py:60} - INFO - 14 items saved to db
 05-11-2022 12:16:52 AM - p97515 {main.py:32} - INFO - Script ended
+05-11-2022 11:23:42 AM - p3788 {main.py:15} - INFO - Script started
+05-11-2022 11:23:42 AM - p3788 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:23:42 AM - p3788 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 11:23:42 AM - p3788 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:23:42 AM - p3788 {nasdaq_splits.py:60} - INFO - 16 items saved to db
+05-11-2022 11:23:42 AM - p3788 {main.py:32} - INFO - Script ended
+05-11-2022 11:25:08 AM - p3805 {main.py:15} - INFO - Script started
+05-11-2022 11:25:08 AM - p3805 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:25:08 AM - p3805 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 11:25:08 AM - p3805 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:25:08 AM - p3805 {nasdaq_splits.py:60} - INFO - 16 items saved to db
+05-11-2022 11:25:08 AM - p3805 {main.py:32} - INFO - Script ended
+05-11-2022 11:35:39 AM - p3976 {main.py:15} - INFO - Script started
+05-11-2022 11:35:39 AM - p3976 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:35:39 AM - p3976 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 11:35:39 AM - p3976 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:35:40 AM - p3976 {nasdaq_splits.py:60} - INFO - 3 items saved to db
+05-11-2022 11:35:40 AM - p3976 {main.py:32} - INFO - Script ended
+05-11-2022 11:36:01 AM - p3987 {main.py:15} - INFO - Script started
+05-11-2022 11:36:01 AM - p3987 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:36:01 AM - p3987 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 11:36:01 AM - p3987 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:36:01 AM - p3987 {nasdaq_splits.py:60} - INFO - 3 items saved to db
+05-11-2022 11:36:01 AM - p3987 {main.py:32} - INFO - Script ended
+05-11-2022 12:01:01 PM - p4426 {main.py:15} - INFO - Script started
+05-11-2022 12:01:01 PM - p4426 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:01:01 PM - p4426 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:58} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 12:01:01 PM - p4426 {nasdaq_splits.py:60} - INFO - 0 items saved to db
+05-11-2022 12:01:01 PM - p4426 {main.py:32} - INFO - Script ended
+05-11-2022 12:01:40 PM - p4446 {main.py:15} - INFO - Script started
+05-11-2022 12:01:40 PM - p4446 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:01:40 PM - p4446 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:01:40 PM - p4446 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "cm" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=CM;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=CM;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "pt" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=PT;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=PT;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "msbc" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=MSBC;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=MSBC;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "brw" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=BRW;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=BRW;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "tatyy" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=TATYY;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=TATYY;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "atlky" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=ATLKY;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=ATLKY;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "atlcy" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=ATLCY;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=ATLCY;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "cweb" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=CWEB;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=CWEB;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "ery" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=ERY;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=ERY;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "yinn" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=YINN;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=YINN;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "ivr" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=IVR;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=IVR;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "bipc" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=BIPC;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=BIPC;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "bip" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=BIP;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=BIP;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "hwbk" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=HWBK;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=HWBK;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "shop" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=SHOP;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=SHOP;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:66} - ERROR - column "cto" does not exist
+LINE 1: SELECT * FROM base_min_vol_prc WHERE symbol=CTO;
+                                                    ^
+
+05-11-2022 12:01:41 PM - p4446 {postgreSQL.py:67} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol=CTO;
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:59} - ERROR - cannot unpack non-iterable NoneType object
+05-11-2022 12:01:41 PM - p4446 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 12:01:41 PM - p4446 {main.py:32} - INFO - Script ended
+05-11-2022 12:02:20 PM - p4461 {main.py:15} - INFO - Script started
+05-11-2022 12:02:20 PM - p4461 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:02:20 PM - p4461 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:02:20 PM - p4461 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:21 PM - p4461 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 12:02:21 PM - p4461 {main.py:32} - INFO - Script ended
+05-11-2022 12:02:43 PM - p4470 {main.py:15} - INFO - Script started
+05-11-2022 12:02:43 PM - p4470 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:02:43 PM - p4470 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 1)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:02:43 PM - p4470 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 12:02:43 PM - p4470 {main.py:32} - INFO - Script ended
+05-11-2022 12:02:49 PM - p4476 {main.py:15} - INFO - Script started
+05-11-2022 12:02:49 PM - p4476 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:02:49 PM - p4476 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:02:49 PM - p4476 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:03:19 PM - p4476 {nasdaq_splits.py:59} - ERROR - not enough values to unpack (expected 2, got 0)
+05-11-2022 12:04:30 PM - p4476 {main.py:22} - INFO - Script ended
+05-11-2022 12:04:34 PM - p4516 {main.py:15} - INFO - Script started
+05-11-2022 12:04:34 PM - p4516 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:04:34 PM - p4516 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:04:34 PM - p4516 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:07:50 PM - p4516 {main.py:22} - INFO - Script ended
+05-11-2022 12:07:52 PM - p4565 {main.py:15} - INFO - Script started
+05-11-2022 12:07:52 PM - p4565 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:07:52 PM - p4565 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:07:52 PM - p4565 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:23:26 PM - p4565 {main.py:22} - INFO - Script ended
+05-11-2022 12:23:28 PM - p4782 {main.py:15} - INFO - Script started
+05-11-2022 12:23:28 PM - p4782 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:23:28 PM - p4782 {main.py:19} - INFO - Deleting all rows Completed!
+05-11-2022 12:23:28 PM - p4782 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 12:24:40 PM - p4782 {main.py:22} - INFO - Script ended
+05-11-2022 12:24:44 PM - p4815 {main.py:15} - INFO - Script started
+05-11-2022 12:24:44 PM - p4815 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 12:24:44 PM - p4815 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 12:24:44 PM - p4815 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 08:08:42 PM - p4815 {main.py:22} - INFO - Script ended
+05-11-2022 08:09:25 PM - p11382 {main.py:15} - INFO - Script started
+05-11-2022 08:09:25 PM - p11382 {main.py:17} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 08:09:25 PM - p11382 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 08:56:23 PM - p11382 {main.py:23} - INFO - Script ended
+05-11-2022 08:56:25 PM - p11722 {main.py:16} - INFO - Script started
+05-11-2022 08:56:25 PM - p11722 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 08:56:25 PM - p11722 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 08:56:25 PM - p11722 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:28 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 08:56:29 PM - p11722 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 08:56:30 PM - p11722 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 08:56:31 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:31 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:31 PM - p11722 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:31 PM - p11722 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 08:56:31 PM - p11722 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 08:56:32 PM - p11722 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 08:56:41 PM - p11722 {benzinga_splits.py:62} - INFO - 0 items saved to db
+05-11-2022 08:56:41 PM - p11722 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 08:56:41 PM - p11722 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 08:56:41 PM - p11722 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 08:56:41 PM - p11722 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 08:56:41 PM - p11722 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 09:08:57 PM - p11722 {main.py:24} - INFO - Script ended
+05-11-2022 09:09:02 PM - p12031 {main.py:16} - INFO - Script started
+05-11-2022 09:09:03 PM - p12031 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:09:03 PM - p12031 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:09:03 PM - p12031 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 09:09:05 PM - p12031 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 09:09:07 PM - p12031 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:09:09 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:09 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:09 PM - p12031 {fidelity_splits.py:69} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:09 PM - p12031 {fidelity_splits.py:71} - INFO - 0 items saved to db
+05-11-2022 09:09:09 PM - p12031 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:60} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:09:11 PM - p12031 {benzinga_splits.py:62} - INFO - 0 items saved to db
+05-11-2022 09:09:11 PM - p12031 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:09:12 PM - p12031 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:09:12 PM - p12031 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:09:12 PM - p12031 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:09:12 PM - p12031 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 09:13:44 PM - p12031 {main.py:24} - INFO - Script ended
+05-11-2022 09:14:18 PM - p12151 {main.py:16} - INFO - Script started
+05-11-2022 09:14:18 PM - p12151 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:14:18 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:18 PM - p12151 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:22 PM - p12151 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:14:22 PM - p12151 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:14:24 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:24 PM - p12151 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:14:24 PM - p12151 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:14:25 PM - p12151 {fidelity_splits.py:70} - ERROR - could not convert string to float: ''
+05-11-2022 09:14:25 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:25 PM - p12151 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:14:25 PM - p12151 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:14:26 PM - p12151 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:27 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {benzinga_splits.py:63} - INFO - 0 items saved to db
+05-11-2022 09:14:28 PM - p12151 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {postgreSQL.py:49} - ERROR - name 'curr' is not defined
+05-11-2022 09:14:28 PM - p12151 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 09:20:31 PM - p12151 {main.py:24} - INFO - Script ended
+05-11-2022 09:20:32 PM - p12275 {main.py:16} - INFO - Script started
+05-11-2022 09:20:33 PM - p12275 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:20:33 PM - p12275 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:20:33 PM - p12275 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:35 PM - p12275 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:20:35 PM - p12275 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:20:37 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:37 PM - p12275 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:20:37 PM - p12275 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:20:38 PM - p12275 {fidelity_splits.py:70} - ERROR - could not convert string to float: ''
+05-11-2022 09:20:38 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:38 PM - p12275 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 09:20:38 PM - p12275 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:20:41 PM - p12275 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:20:41 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:41 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:41 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:20:42 PM - p12275 {benzinga_splits.py:63} - INFO - 0 items saved to db
+05-11-2022 09:20:42 PM - p12275 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:20:43 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: UPDATE public.splits SET sql='<sql_client.SqlClient object a...
+                                 ^
+
+05-11-2022 09:20:43 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: UPDATE public.splits SET sql='<sql_client.SqlClient object a...
+                                 ^
+
+05-11-2022 09:20:43 PM - p12275 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: UPDATE public.splits SET sql='<sql_client.SqlClient object a...
+                                 ^
+
+05-11-2022 09:20:43 PM - p12275 {nasdaq_splits.py:61} - INFO - 0 items saved to db
+05-11-2022 09:21:44 PM - p12275 {main.py:24} - INFO - Script ended
+05-11-2022 09:21:46 PM - p12294 {main.py:16} - INFO - Script started
+05-11-2022 09:21:46 PM - p12294 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:21:56 PM - p12294 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:21:56 PM - p12294 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:22:47 PM - p12294 {postgreSQL.py:50} - ERROR - column "sql" of relation "splits" does not exist
+LINE 1: INSERT INTO public.splits (sql, split_label, update_time, up...
+                                   ^
+
+05-11-2022 09:25:34 PM - p12294 {main.py:21} - INFO - Script ended
+05-11-2022 09:25:36 PM - p12361 {main.py:16} - INFO - Script started
+05-11-2022 09:25:36 PM - p12361 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:25:36 PM - p12361 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:25:36 PM - p12361 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:25:39 PM - p12361 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:25:39 PM - p12361 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:25:40 PM - p12361 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:25:40 PM - p12361 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:25:43 PM - p12361 {fidelity_splits.py:70} - ERROR - could not convert string to float: ''
+05-11-2022 09:25:43 PM - p12361 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:25:43 PM - p12361 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:25:45 PM - p12361 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:25:46 PM - p12361 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:25:46 PM - p12361 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:25:47 PM - p12361 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:65} - ERROR - list index out of range
+05-11-2022 09:25:48 PM - p12361 {briefing_splits.py:67} - INFO - 0 items saved to db
+05-11-2022 09:25:48 PM - p12361 {main.py:32} - INFO - Script ended
+05-11-2022 09:35:40 PM - p12567 {main.py:16} - INFO - Script started
+05-11-2022 09:35:40 PM - p12567 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:35:44 PM - p12567 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:35:44 PM - p12567 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:35:46 PM - p12567 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:35:46 PM - p12567 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:35:48 PM - p12567 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:35:48 PM - p12567 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:39:39 PM - p12567 {main.py:32} - INFO - Script ended
+05-11-2022 09:39:40 PM - p12652 {main.py:16} - INFO - Script started
+05-11-2022 09:39:40 PM - p12652 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:39:40 PM - p12652 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:39:40 PM - p12652 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:39:43 PM - p12652 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:39:43 PM - p12652 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:39:45 PM - p12652 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:39:45 PM - p12652 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:39:47 PM - p12652 {main.py:32} - INFO - Script ended
+05-11-2022 09:39:51 PM - p12661 {main.py:16} - INFO - Script started
+05-11-2022 09:39:51 PM - p12661 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:39:51 PM - p12661 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:39:51 PM - p12661 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:39:54 PM - p12661 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:39:54 PM - p12661 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:39:55 PM - p12661 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:39:55 PM - p12661 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:39:57 PM - p12661 {fidelity_splits.py:70} - ERROR - '>' not supported between instances of 'NoneType' and 'NoneType'
+05-11-2022 09:39:57 PM - p12661 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:39:57 PM - p12661 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:39:58 PM - p12661 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:40:00 PM - p12661 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:40:00 PM - p12661 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:40:00 PM - p12661 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:62} - ERROR - __init__() missing 1 required positional argument: 'sql'
+05-11-2022 09:40:02 PM - p12661 {briefing_splits.py:64} - INFO - 0 items saved to db
+05-11-2022 09:40:02 PM - p12661 {main.py:32} - INFO - Script ended
+05-11-2022 09:40:35 PM - p12674 {main.py:16} - INFO - Script started
+05-11-2022 09:40:35 PM - p12674 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:40:35 PM - p12674 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:40:35 PM - p12674 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:40:38 PM - p12674 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:40:38 PM - p12674 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:40:39 PM - p12674 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:40:39 PM - p12674 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:40:41 PM - p12674 {fidelity_splits.py:70} - ERROR - '>' not supported between instances of 'NoneType' and 'NoneType'
+05-11-2022 09:40:41 PM - p12674 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:40:41 PM - p12674 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:40:42 PM - p12674 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:40:43 PM - p12674 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:40:43 PM - p12674 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:40:44 PM - p12674 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:40:46 PM - p12674 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 09:40:46 PM - p12674 {main.py:32} - INFO - Script ended
+05-11-2022 09:41:19 PM - p12684 {main.py:16} - INFO - Script started
+05-11-2022 09:41:19 PM - p12684 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:41:19 PM - p12684 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:41:19 PM - p12684 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:41:21 PM - p12684 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:41:21 PM - p12684 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:41:23 PM - p12684 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:41:23 PM - p12684 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:43:05 PM - p12684 {main.py:21} - INFO - Script ended
+05-11-2022 09:43:49 PM - p12723 {main.py:16} - INFO - Script started
+05-11-2022 09:43:49 PM - p12723 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:43:49 PM - p12723 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:43:49 PM - p12723 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:43:51 PM - p12723 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:43:51 PM - p12723 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:43:54 PM - p12723 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:43:54 PM - p12723 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:43:55 PM - p12723 {fidelity_splits.py:70} - ERROR - '>' not supported between instances of 'NoneType' and 'NoneType'
+05-11-2022 09:43:55 PM - p12723 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:43:55 PM - p12723 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:43:56 PM - p12723 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:43:58 PM - p12723 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:43:58 PM - p12723 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:43:59 PM - p12723 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:44:01 PM - p12723 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 09:44:01 PM - p12723 {main.py:32} - INFO - Script ended
+05-11-2022 09:44:10 PM - p12741 {main.py:16} - INFO - Script started
+05-11-2022 09:44:10 PM - p12741 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:44:10 PM - p12741 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:44:10 PM - p12741 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:44:11 PM - p12741 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:44:11 PM - p12741 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:44:12 PM - p12741 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:44:12 PM - p12741 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:45:09 PM - p12741 {main.py:21} - INFO - Script ended
+05-11-2022 09:45:11 PM - p12757 {main.py:16} - INFO - Script started
+05-11-2022 09:45:11 PM - p12757 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:45:11 PM - p12757 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:45:11 PM - p12757 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:47:07 PM - p12757 {main.py:21} - INFO - Script ended
+05-11-2022 09:47:09 PM - p12789 {main.py:16} - INFO - Script started
+05-11-2022 09:47:09 PM - p12789 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:47:09 PM - p12789 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:47:09 PM - p12789 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:48:15 PM - p12789 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:48:15 PM - p12789 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:48:32 PM - p12789 {main.py:21} - INFO - Script ended
+05-11-2022 09:48:34 PM - p12803 {main.py:16} - INFO - Script started
+05-11-2022 09:48:34 PM - p12803 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:48:34 PM - p12803 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:48:34 PM - p12803 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:48:39 PM - p12803 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:48:39 PM - p12803 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:48:41 PM - p12803 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:48:41 PM - p12803 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:48:47 PM - p12803 {fidelity_splits.py:70} - ERROR - '>' not supported between instances of 'NoneType' and 'NoneType'
+05-11-2022 09:48:47 PM - p12803 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:48:47 PM - p12803 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:48:47 PM - p12803 {main.py:32} - INFO - Script ended
+05-11-2022 09:49:01 PM - p12816 {main.py:16} - INFO - Script started
+05-11-2022 09:49:01 PM - p12816 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:49:01 PM - p12816 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:49:01 PM - p12816 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:49:03 PM - p12816 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:49:03 PM - p12816 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:49:05 PM - p12816 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:49:05 PM - p12816 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:52:40 PM - p12816 {main.py:21} - INFO - Script ended
+05-11-2022 09:55:39 PM - p12972 {main.py:16} - INFO - Script started
+05-11-2022 09:55:39 PM - p12972 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:55:39 PM - p12972 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:55:39 PM - p12972 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:55:42 PM - p12972 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:55:42 PM - p12972 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:55:44 PM - p12972 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:55:44 PM - p12972 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:55:46 PM - p12972 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 09:55:46 PM - p12972 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:55:46 PM - p12972 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:55:48 PM - p12972 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:55:49 PM - p12972 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:55:49 PM - p12972 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:55:50 PM - p12972 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:55:51 PM - p12972 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 09:55:51 PM - p12972 {main.py:32} - INFO - Script ended
+05-11-2022 09:56:07 PM - p12983 {main.py:16} - INFO - Script started
+05-11-2022 09:56:07 PM - p12983 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 09:56:07 PM - p12983 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 09:56:07 PM - p12983 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 09:56:10 PM - p12983 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 09:56:10 PM - p12983 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 09:56:11 PM - p12983 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:56:11 PM - p12983 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 09:56:14 PM - p12983 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 09:56:14 PM - p12983 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 09:56:14 PM - p12983 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 09:56:16 PM - p12983 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 09:56:18 PM - p12983 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 09:56:18 PM - p12983 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 09:56:18 PM - p12983 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 09:56:20 PM - p12983 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 09:56:20 PM - p12983 {main.py:32} - INFO - Script ended
+05-11-2022 10:18:23 PM - p13400 {main.py:16} - INFO - Script started
+05-11-2022 10:18:24 PM - p13400 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 10:18:24 PM - p13400 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 10:18:27 PM - p13400 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 10:18:37 PM - p13400 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 10:18:37 PM - p13400 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 10:18:39 PM - p13400 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 10:18:39 PM - p13400 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 10:18:47 PM - p13400 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 10:18:47 PM - p13400 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 10:18:47 PM - p13400 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 10:18:48 PM - p13400 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 10:18:50 PM - p13400 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 10:18:50 PM - p13400 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 10:22:45 PM - p13400 {main.py:32} - INFO - Script ended
+05-11-2022 10:22:48 PM - p13454 {main.py:16} - INFO - Script started
+05-11-2022 10:22:48 PM - p13454 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 10:22:48 PM - p13454 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 10:22:48 PM - p13454 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 10:22:52 PM - p13454 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 10:22:52 PM - p13454 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 10:22:53 PM - p13454 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 10:22:53 PM - p13454 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 10:22:54 PM - p13454 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 10:22:54 PM - p13454 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 10:22:54 PM - p13454 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 10:22:55 PM - p13454 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 10:22:57 PM - p13454 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 10:22:57 PM - p13454 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 10:22:57 PM - p13454 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 10:22:59 PM - p13454 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 10:22:59 PM - p13454 {main.py:32} - INFO - Script ended
+05-11-2022 11:02:07 PM - p14178 {main.py:16} - INFO - Script started
+05-11-2022 11:02:07 PM - p14178 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:02:07 PM - p14178 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:02:07 PM - p14178 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='ASP:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ASP:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='AGRX' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='AGRX' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...base_min_vol_prc WHERE symbol='AIP_U:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='AIP_U:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='ATAX' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ATAX' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='APLD' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='APLD' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='AAZ:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='AAZ:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='BIOL' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='BIOL' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='CJJD' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CJJD' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='CMT:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CMT:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='DFFN' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='DFFN' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='ELBM:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ELBM:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='ENOV' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ENOV' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='GAMA:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='GAMA:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='HAR:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='HAR:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ase_min_vol_prc WHERE symbol='CHIP_H:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CHIP_H:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='NVIV' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='NVIV' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...FROM base_min_vol_prc WHERE symbol='MFA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='MFA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='MYCO:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='MYCO:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='NEON:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='NEON:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='NVCN:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='NVCN:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='CORE:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CORE:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='PPP:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='PPP:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='AIHS' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='AIHS' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='TBLT' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='TBLT' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... FROM base_min_vol_prc WHERE symbol='UK' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='UK' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='USCM:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='USCM:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='VRB:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='VRB:CA' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='ZSAN' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:09 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ZSAN' ORDER BY announcement_date;
+05-11-2022 11:02:09 PM - p14178 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 11:02:09 PM - p14178 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...OM base_min_vol_prc WHERE symbol='CM:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CM:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...OM base_min_vol_prc WHERE symbol='CH:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='CH:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='MKT:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='MKT:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='EVFM' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='EVFM' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='GCP:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='GCP:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='HOC:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='HOC:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ... base_min_vol_prc WHERE symbol='IMCX:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='IMCX:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='LEJU' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='LEJU' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='LPK:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='LPK:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='METX' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='METX' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...M base_min_vol_prc WHERE symbol='ODV:CA' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='ODV:CA' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...ROM base_min_vol_prc WHERE symbol='TXMD' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:11 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='TXMD' ORDER BY announcement_date;
+05-11-2022 11:02:11 PM - p14178 {fidelity_splits.py:72} - INFO - 0 items saved to db
+05-11-2022 11:02:11 PM - p14178 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:02:12 PM - p14178 {postgreSQL.py:67} - ERROR - column "announcement_date" does not exist
+LINE 1: ...FROM base_min_vol_prc WHERE symbol='BIP' ORDER BY announceme...
+                                                             ^
+
+05-11-2022 11:02:12 PM - p14178 {postgreSQL.py:68} - ERROR - SELECT * FROM base_min_vol_prc WHERE symbol='BIP' ORDER BY announcement_date;
+05-11-2022 11:05:50 PM - p14178 {main.py:32} - INFO - Script ended
+05-11-2022 11:05:52 PM - p14267 {main.py:16} - INFO - Script started
+05-11-2022 11:05:52 PM - p14267 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:05:52 PM - p14267 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:05:52 PM - p14267 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:05:54 PM - p14267 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:05:54 PM - p14267 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:05:56 PM - p14267 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:05:56 PM - p14267 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:06:02 PM - p14267 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:06:02 PM - p14267 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:06:02 PM - p14267 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:06:04 PM - p14267 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:06:05 PM - p14267 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:06:05 PM - p14267 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:06:06 PM - p14267 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:06:13 PM - p14267 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:06:13 PM - p14267 {main.py:32} - INFO - Script ended
+05-11-2022 11:07:51 PM - p14302 {main.py:16} - INFO - Script started
+05-11-2022 11:07:51 PM - p14302 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:07:51 PM - p14302 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:07:51 PM - p14302 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:08:30 PM - p14302 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:08:30 PM - p14302 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:08:32 PM - p14302 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:08:32 PM - p14302 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:08:33 PM - p14302 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:09:13 PM - p14302 {fidelity_splits.py:70} - ERROR - 'symbol'
+05-11-2022 11:09:19 PM - p14302 {main.py:21} - INFO - Script ended
+05-11-2022 11:09:21 PM - p14323 {main.py:16} - INFO - Script started
+05-11-2022 11:09:21 PM - p14323 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:09:21 PM - p14323 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:09:21 PM - p14323 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:09:23 PM - p14323 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:09:23 PM - p14323 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:09:26 PM - p14323 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:09:26 PM - p14323 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:09:27 PM - p14323 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:10:22 PM - p14323 {main.py:32} - INFO - Script ended
+05-11-2022 11:10:25 PM - p14346 {main.py:16} - INFO - Script started
+05-11-2022 11:10:25 PM - p14346 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:10:25 PM - p14346 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:10:25 PM - p14346 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:10:27 PM - p14346 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:10:27 PM - p14346 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:10:28 PM - p14346 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:10:28 PM - p14346 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:10:30 PM - p14346 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:11:25 PM - p14346 {main.py:32} - INFO - Script ended
+05-11-2022 11:11:27 PM - p14363 {main.py:16} - INFO - Script started
+05-11-2022 11:11:27 PM - p14363 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:11:27 PM - p14363 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:11:27 PM - p14363 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:11:29 PM - p14363 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:11:29 PM - p14363 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:11:31 PM - p14363 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:11:31 PM - p14363 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:11:32 PM - p14363 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:12:38 PM - p14363 {main.py:21} - INFO - Script ended
+05-11-2022 11:12:41 PM - p14399 {main.py:16} - INFO - Script started
+05-11-2022 11:12:41 PM - p14399 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:12:41 PM - p14399 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:12:41 PM - p14399 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:13:43 PM - p14399 {main.py:21} - INFO - Script ended
+05-11-2022 11:13:44 PM - p14415 {main.py:16} - INFO - Script started
+05-11-2022 11:13:45 PM - p14415 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:13:45 PM - p14415 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:13:45 PM - p14415 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:14:21 PM - p14415 {main.py:32} - INFO - Script ended
+05-11-2022 11:14:22 PM - p14430 {main.py:16} - INFO - Script started
+05-11-2022 11:14:22 PM - p14430 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:14:22 PM - p14430 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:14:22 PM - p14430 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:14:39 PM - p14430 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:14:39 PM - p14430 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:14:40 PM - p14430 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:14:40 PM - p14430 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:14:42 PM - p14430 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:15:17 PM - p14430 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:15:17 PM - p14430 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:15:18 PM - p14430 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:15:20 PM - p14430 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:15:20 PM - p14430 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:15:25 PM - p14430 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:15:28 PM - p14430 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:15:28 PM - p14430 {main.py:32} - INFO - Script ended
+05-11-2022 11:16:27 PM - p14460 {main.py:16} - INFO - Script started
+05-11-2022 11:16:27 PM - p14460 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:16:27 PM - p14460 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:16:27 PM - p14460 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:16:29 PM - p14460 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:16:29 PM - p14460 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:16:31 PM - p14460 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:16:31 PM - p14460 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:16:32 PM - p14460 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:16:32 PM - p14460 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:16:32 PM - p14460 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:16:33 PM - p14460 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:16:35 PM - p14460 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:16:35 PM - p14460 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:16:35 PM - p14460 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:16:36 PM - p14460 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:16:36 PM - p14460 {main.py:32} - INFO - Script ended
+05-11-2022 11:19:01 PM - p14492 {main.py:16} - INFO - Script started
+05-11-2022 11:19:02 PM - p14492 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:19:02 PM - p14492 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:19:02 PM - p14492 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:19:04 PM - p14492 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:19:04 PM - p14492 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:19:05 PM - p14492 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:05 PM - p14492 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:19:06 PM - p14492 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:19:06 PM - p14492 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:06 PM - p14492 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:19:08 PM - p14492 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:19:09 PM - p14492 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:19:09 PM - p14492 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:19:09 PM - p14492 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:19:11 PM - p14492 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:19:11 PM - p14492 {main.py:32} - INFO - Script ended
+05-11-2022 11:19:17 PM - p14499 {main.py:16} - INFO - Script started
+05-11-2022 11:19:17 PM - p14499 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:19:17 PM - p14499 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:19:17 PM - p14499 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:19:19 PM - p14499 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:19:19 PM - p14499 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:19:20 PM - p14499 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:20 PM - p14499 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:19:22 PM - p14499 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:19:22 PM - p14499 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:22 PM - p14499 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:19:23 PM - p14499 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:19:24 PM - p14499 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:19:24 PM - p14499 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:19:25 PM - p14499 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:19:26 PM - p14499 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:19:26 PM - p14499 {main.py:32} - INFO - Script ended
+05-11-2022 11:19:38 PM - p14504 {main.py:16} - INFO - Script started
+05-11-2022 11:19:38 PM - p14504 {main.py:18} - INFO - Deleting all rows where announcement date < Today – 6 Months
+05-11-2022 11:19:38 PM - p14504 {main.py:20} - INFO - Deleting all rows Completed!
+05-11-2022 11:19:38 PM - p14504 {fidelity_splits.py:33} - INFO - Month -> 04/01/2022
+05-11-2022 11:19:41 PM - p14504 {fidelity_splits.py:72} - INFO - 6 items saved to db
+05-11-2022 11:19:41 PM - p14504 {fidelity_splits.py:33} - INFO - Month -> 05/01/2022
+05-11-2022 11:19:42 PM - p14504 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:42 PM - p14504 {fidelity_splits.py:33} - INFO - Month -> 06/01/2022
+05-11-2022 11:19:43 PM - p14504 {fidelity_splits.py:70} - ERROR - Ratio is empty for HWBK
+05-11-2022 11:19:43 PM - p14504 {fidelity_splits.py:72} - INFO - 1 items saved to db
+05-11-2022 11:19:43 PM - p14504 {fidelity_splits.py:33} - INFO - Month -> 07/01/2022
+05-11-2022 11:19:44 PM - p14504 {benzinga_splits.py:35} - INFO - Date From -> 2021-11-01 : Date To -> 2022-11-30
+05-11-2022 11:19:46 PM - p14504 {benzinga_splits.py:63} - INFO - 22 items saved to db
+05-11-2022 11:19:46 PM - p14504 {nasdaq_splits.py:27} - INFO - Today Date-> 2022-05-11
+05-11-2022 11:19:46 PM - p14504 {nasdaq_splits.py:61} - INFO - 3 items saved to db
+05-11-2022 11:19:47 PM - p14504 {briefing_splits.py:65} - INFO - 5 items saved to db
+05-11-2022 11:19:47 PM - p14504 {main.py:32} - INFO - Script ended

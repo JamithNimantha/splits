@@ -53,9 +53,11 @@ class PostgreSql:
         else:
             return True
 
-    def select(self, table: str, columns: str = None, condition: str = None) -> Tuple[bool, list]:
+    def select(self, table: str, columns: str = None, condition: str = None, order: bool = False) -> Tuple[bool, list]:
         if condition:
             query = f"SELECT * FROM {table} WHERE {condition};"
+            if order:
+                query = f"SELECT * FROM {table} WHERE {condition} ORDER BY announcement_date;"
         else:
             query = f"SELECT * FROM {table};"
         if columns:

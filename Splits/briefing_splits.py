@@ -1,5 +1,5 @@
-__version__ = 1.0
-__author__ = "Jamith Nimantha"
+__version__ = 1.1
+__author__ = 'Jamith Nimantha'
 
 from datetime import datetime
 from typing import Optional
