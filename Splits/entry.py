@@ -49,7 +49,7 @@ class Entry:
         self.record_date = self.get_date(kwargs['rec_date'])
         self.ex_date = self.get_date(kwargs['ex_date'])
         self.payable_date = self.get_date(kwargs['payable_date'])
-        self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
+        # self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         if kwargs['ratio'].endswith('%'):
             kwargs['ratio'] = f"{(float(kwargs['ratio'].replace('%', '')) * 0.01) + 1}:{1}"
         if kwargs['ratio'] == '':
