@@ -51,7 +51,7 @@ class Entry:
         self.payable_date = self.get_date(kwargs['payable_date'])
         self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         if kwargs['ratio'].endswith('%'):
-            kwargs['ratio'] = f"{(int(kwargs['ratio'].replace('.000%', '')) * 0.01) + 1}:{1}"
+            kwargs['ratio'] = f"{(float(kwargs['ratio'].replace('%', '')) * 0.01) + 1}:{1}"
         if kwargs['ratio'] == '':
             raise Exception('Ratio is empty for {}'.format(self.symbol))
         self.split_to, self.split_from = map(lambda x: round(float(x), 4), kwargs['ratio'].split(":"))

@@ -36,38 +36,41 @@ class FidelitySplits:
         if not soup:
             log.warning("failed to fetch the page")
             return
-        table = soup.find('table', {'class': 'datatable-component events-calender-table-four'})
-        tbody = table.find('tbody')
-        success = 0
-        for tr in tbody.find_all('tr'):
-            if tr.text.__contains__('No Splits for this month'):
-                break
-            try:
-                co_name = tr.find('th').find('a').text
-                tds = tr.find_all('td')
-                symbol = tds[0].text.strip()
-                ratio = tds[1].text.strip()
-                ann_date = tds[2].text.strip()
-                rec_date = tds[3].text.strip()
-                ex_date = tds[4].text.strip()
-                entry = Entry(
-                    sql=self.sql,
-                    symbol=symbol,
-                    co_name=co_name,
-                    ratio=ratio,
-                    payable_date=None,
-                    updated_timestamp=None,
-                    exchange=None,
-                    ann_date=ann_date,
-                    rec_date=rec_date,
-                    ex_date=ex_date,
-                    optionable=None,
-                    note=None,
-                )
-                if self.sql.insert_data(entry.sql_insert_data):
-                    success += 1
-            except Exception as e:
-                 log.error(e)
+        try:
+            table = soup.find('table', {'class': 'datatable-component events-calender-table-four'})
+            tbody = table.find('tbody')
+            success = 0
+            for tr in tbody.find_all('tr'):
+                if tr.text.__contains__('No Splits for this month'):
+                    break
+                try:
+                    co_name = tr.find('th').find('a').text
+                    tds = tr.find_all('td')
+                    symbol = tds[0].text.strip()
+                    ratio = tds[1].text.strip()
+                    ann_date = tds[2].text.strip()
+                    rec_date = tds[3].text.strip()
+                    ex_date = tds[4].text.strip()
+                    entry = Entry(
+                        sql=self.sql,
+                        symbol=symbol,
+                        co_name=co_name,
+                        ratio=ratio,
+                        payable_date=None,
+                        updated_timestamp=None,
+                        exchange=None,
+                        ann_date=ann_date,
+                        rec_date=rec_date,
+                        ex_date=ex_date,
+                        optionable=None,
+                        note=None,
+                    )
+                    if self.sql.insert_data(entry.sql_insert_data):
+                        success += 1
+                except Exception as e:
+                     log.error(e)
+        except Exception as e:
+            log.error(e)
         else:
             log.info(f"{success} items saved to db")
 
