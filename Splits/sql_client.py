@@ -68,7 +68,6 @@ class SqlClient(PostgreSql):
                 updated_date = parser.parse(val.replace("to_timestamp('", '').replace("','yyyy-mm-dd')", ""))
                 if not updated_date < existing_date:
                     continue
-
             set_query += f"{key}={val}, "
         else:
             set_query = set_query[:-2]
@@ -78,7 +77,7 @@ class SqlClient(PostgreSql):
         if not self.exists_in_base_min_vol_prc(insert_data.copy()):
             return False
         existing_record = self.already_exists(insert_data.copy())
-        if existing_record is not None:
+        if len(existing_record) > 0:
             rst = self.update_data(insert_data.copy(), existing_record[0])
             self.delete_oldest_annoucement_date_if_duplicate_symbols_found(insert_data)
             return rst
