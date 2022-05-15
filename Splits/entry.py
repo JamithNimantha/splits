@@ -40,14 +40,15 @@ class Entry:
         if symbol.__contains__(':'):
             if symbol.__contains__(':CA'):
                 self.country = 'Canada'
-            else:
-                self.country = 'USA'
             self.symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
+        self.country = 'USA'
         self.symbol = symbol
         self.exchange = kwargs['exchange']
         self.announcement_date = self.get_date(kwargs['ann_date'])
         self.record_date = self.get_date(kwargs['rec_date'])
         self.ex_date = self.get_date(kwargs['ex_date'])
+        if self.ex_date is None:
+            raise Exception('ex_date is empty for {}'.format(self.symbol))
         self.payable_date = self.get_date(kwargs['payable_date'])
         # self.updated_timestamp = self.get_date(kwargs['updated_timestamp'])
         if kwargs['ratio'].endswith('%'):
