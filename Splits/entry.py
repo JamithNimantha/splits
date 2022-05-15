@@ -37,11 +37,11 @@ class Entry:
         Generator function.
         """
         symbol = kwargs['symbol']
+        self.country = 'USA'
         if symbol.__contains__(':'):
             if symbol.__contains__(':CA'):
                 self.country = 'Canada'
-            self.symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
-        self.country = 'USA'
+            symbol = symbol.replace(":CA", "").replace("/", ".").strip().upper()
         self.symbol = symbol
         self.exchange = kwargs['exchange']
         self.announcement_date = self.get_date(kwargs['ann_date'])
