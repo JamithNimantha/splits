@@ -1,0 +1,14 @@
+Preference in case of Dates;
+Date values that are specfied take precedence over Date values that are not not specfied
+
+In case of a conflict in specfied Dates;
+Earliest Date takes precedence
+
+I have provided an example for Ex-Date, picking up the earliest valid value in Database_splits.xlsx
+
+split_from & split_to have been now specfied as NOT NULL. 
+Reject Rows that do not have split_to:split_from ratio
+
+In case of all other conflicts;
+A valid value takes precedence over No value.
+
