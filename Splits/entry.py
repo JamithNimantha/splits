@@ -63,15 +63,17 @@ class Entry:
         self.update_date = self.get_date(str(datetime.datetime.today().date()))
         self.update_time = self.get_time(str(datetime.datetime.today().time()))
         if self.split_from > self.split_to:
-            if self.record_date is None:
-                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|PAY:{self.get_date_for_label(kwargs['payable_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
-            else:
-                self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|REC:{self.get_date_for_label(kwargs['rec_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
+            self.split_label = f"RSPLIT|FRM:{self.split_from}|TO:{self.split_to}"
         else:
-            if self.record_date is None:
-                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|PAY:{self.get_date_for_label(kwargs['payable_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
-            else:
-                self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}|DT:{self.get_date_for_label(kwargs['ann_date'])}|REC:{self.get_date_for_label(kwargs['rec_date'])}|EX:{self.get_date_for_label(kwargs['ex_date'])}"
+            self.split_label = f"SPLIT|FRM:{self.split_from}|TO:{self.split_to}"
+        if self.announcement_date is not None:
+            self.split_label += f"|DT:{self.get_date_for_label(kwargs['ann_date'])}"
+        if self.payable_date is not None:
+            self.split_label += f"|PAY:{self.get_date_for_label(kwargs['payable_date'])}"
+        if self.record_date is not None:
+            self.split_label += f"|REC:{self.get_date_for_label(kwargs['rec_date'])}"
+        if self.ex_date is not None:
+            self.split_label += f"|EX:{self.get_date_for_label(kwargs['ex_date'])}"
 
     @staticmethod
     def get_date(date_: str) -> Optional[str]:
