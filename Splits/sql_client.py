@@ -90,5 +90,5 @@ class SqlClient(PostgreSql):
         today = datetime.today().date()
         today = today.replace(day=1)
         date_from = (today - relativedelta.relativedelta(months=6)).strftime("%Y-%m-%d")
-        condition = f"announcement_date < '{date_from}'"
+        condition = f"ex_date < '{date_from}'"
         return self.delete(self.table, condition)

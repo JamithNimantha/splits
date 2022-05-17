@@ -15,7 +15,7 @@ if __name__ == "__main__":
         sql = SqlClient()
         log.info("Script started")
         if sql.initialize():
-            log.info("Deleting all rows where announcement date < Today – 6 Months")
+            log.info("Deleting all rows where execution date < Today – 6 Months")
             if sql.delete_old_data():
                 log.info("Deleting all rows Completed!")
             Fidelity(sql)()

@@ -36,8 +36,7 @@ class NasdaqSplits:
                 announced_date = split_record['announcedDate']
                 note = None
                 if 'N/A' == split_record['announcedDate']:
-                    announced_date = (datetime.today().date() - relativedelta.relativedelta(months=6)).strftime(
-                        "%m/%d/%Y")
+                    announced_date = None
                     note = 'announcement_date invalid'
                 entry = Entry(
                     sql=self.sql,
