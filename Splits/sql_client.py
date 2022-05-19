@@ -15,9 +15,7 @@ class SqlClient(PostgreSql):
         self.table = 'public.splits'
 
     def already_exists(self, insert_data: dict) -> Tuple[bool, list]:
-        condition = f"symbol={insert_data.pop('symbol')} and ex_date={insert_data.pop('ex_date')} and " \
-                    f"split_from={insert_data.pop('split_from')} and split_to={insert_data.pop('split_to')} and" \
-                    f" country={insert_data.pop('country')}"
+        condition = f"symbol={insert_data.pop('symbol')}"
         return self.select(self.table, condition=condition)
 
     def exists_in_base_min_vol_prc(self, insert_data: dict) -> bool:
@@ -41,9 +39,7 @@ class SqlClient(PostgreSql):
         return None
 
     def update_data(self, insert_data: dict, existing_record: RealDictRow) -> bool:
-        condition = f"symbol={insert_data.pop('symbol')} and ex_date={insert_data['ex_date']} and " \
-                    f"split_from={insert_data['split_from']} and split_to={insert_data['split_to']} and" \
-                    f" country={insert_data['country']}"
+        condition = f"symbol={insert_data.pop('symbol')}"
         set_query = ''
         updated_split_from = float(insert_data['split_from'].replace("'", ""))
         updated_split_to = float(insert_data['split_to'].replace("'", ""))
@@ -88,7 +84,7 @@ class SqlClient(PostgreSql):
 
     def delete_old_data(self) -> bool:
         today = datetime.today().date()
-        today = today.replace(day=1)
+        # today = today.replace(day=1)
         date_from = (today - relativedelta.relativedelta(months=6)).strftime("%Y-%m-%d")
         condition = f"ex_date < '{date_from}'"
         return self.delete(self.table, condition)

@@ -19,7 +19,7 @@ class FidelitySplits:
 
     def __call__(self, ) -> None:
         today = datetime.today().date()
-        today = today.replace(day=1)
+        # today = today.replace(day=1)
 
         prev_month = (today - relativedelta.relativedelta(months=1)).strftime("%m/%d/%Y")
         curr_month = today.strftime("%m/%d/%Y")

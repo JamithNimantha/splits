@@ -23,7 +23,7 @@ class BenzingaSplits:
 
     def __call__(self, ) -> None:
         today = datetime.today().date()
-        today = today.replace(day=1)
+        # today = today.replace(day=1)
         date_from = (today - relativedelta.relativedelta(months=6)).strftime("%Y-%m-%d")
         # calendar.monthrange() used to get the last day of the month
         today = today.replace(day=calendar.monthrange(today.year, today.month)[1])
