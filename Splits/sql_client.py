@@ -15,7 +15,7 @@ class SqlClient(PostgreSql):
         self.table = 'public.splits'
 
     def already_exists(self, insert_data: dict) -> Tuple[bool, list]:
-        condition = f"symbol={insert_data.pop('symbol')}"
+        condition = f"symbol={insert_data.pop('symbol')} and country={insert_data.pop('country')}"
         return self.select(self.table, condition=condition)
 
     def exists_in_base_min_vol_prc(self, insert_data: dict) -> bool:
@@ -39,7 +39,7 @@ class SqlClient(PostgreSql):
         return None
 
     def update_data(self, insert_data: dict, existing_record: RealDictRow) -> bool:
-        condition = f"symbol={insert_data.pop('symbol')}"
+        condition = f"symbol={insert_data.pop('symbol')} and country={insert_data.pop('country')}"
         set_query = ''
         updated_split_from = float(insert_data['split_from'].replace("'", ""))
         updated_split_to = float(insert_data['split_to'].replace("'", ""))

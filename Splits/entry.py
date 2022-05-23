@@ -90,7 +90,7 @@ class Entry:
     def get_time(date_: str) -> Optional[str]:
         if date_ in ['', None]:
             return None
-        return f"to_timestamp('{date_}','HH24:M1:SS')::TIME"
+        return f"to_timestamp('{date_}','HH24:MI:SS')::TIME"
 
     @property
     def sql_insert_data(self) -> dict:

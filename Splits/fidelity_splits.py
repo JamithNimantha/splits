@@ -19,12 +19,11 @@ class FidelitySplits:
 
     def __call__(self, ) -> None:
         today = datetime.today().date()
-        # today = today.replace(day=1)
-
-        prev_month = (today - relativedelta.relativedelta(months=1)).strftime("%m/%d/%Y")
-        curr_month = today.strftime("%m/%d/%Y")
-        next_month = (today + relativedelta.relativedelta(months=1)).strftime("%m/%d/%Y")
-        next_month_2 = (today + relativedelta.relativedelta(months=2)).strftime("%m/%d/%Y")
+        today = today.replace(day=1)
+        prev_month = (today - relativedelta.relativedelta(months=1)).strftime("%-m/%-d/%Y")
+        curr_month = today.strftime("%-m/%-d/%Y")
+        next_month = (today + relativedelta.relativedelta(months=1)).strftime("%-m/%-d/%Y")
+        next_month_2 = (today + relativedelta.relativedelta(months=2)).strftime("%-m/%-d/%Y")
 
         for month in [prev_month, curr_month, next_month, next_month_2]:
             self.get_month_data(month)
